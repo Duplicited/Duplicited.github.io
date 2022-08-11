@@ -17,9 +17,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/ducktools.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
-        <script type ="text/javascript" src="./js/ducktools.js"></script>
-        
+        <link href="css/styles.css" rel="stylesheet" />      
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -42,8 +40,19 @@
 
     </body>
 
+    <script>
+        
+            const ethereumButton = document.getElementById('enableEthereumButton');
+
+            ethereumButton.addEventListener('click', () => {
+            //Will Start the metamask extension
+            ethereum.request({ method: 'eth_requestAccounts' });
+            });
+
+
+    </script>
+
     
     
 </html>
-
 
