@@ -27,8 +27,17 @@ window.addEventListener('load', () => {
         return web3;
       }
 
+
+    });
+
+    const ethereumButton = document.querySelector('.enableEthereumButton');
+
+    ethereumButton.addEventListener('click', () => {
+      //Will Start the metamask extension
+      ethereum.request({ method: 'eth_requestAccounts' });
       startApp()
     });
+      
   
 
 var ducks;
