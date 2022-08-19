@@ -11449,6 +11449,7 @@ html {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  padding-bottom: 20px;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
