@@ -605,9 +605,9 @@ progress {
 }
 
 .img-spotlight {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid black;
+  height: 400px;
+  width: 580px;
+  border: 3px solid black;
 }
 
 .img-thumbnail {
@@ -11522,4 +11522,8 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.card {
+  border: 3px solid black;
 }
