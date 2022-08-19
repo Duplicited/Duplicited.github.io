@@ -604,6 +604,17 @@ progress {
   height: auto;
 }
 
+.img-fixed {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+
 .img-spotlight {
   height: 400px;
   width: 580px;
