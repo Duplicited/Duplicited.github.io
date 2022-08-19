@@ -11558,3 +11558,8 @@ html {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.reddit-post {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
