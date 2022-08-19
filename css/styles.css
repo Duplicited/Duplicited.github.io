@@ -11524,6 +11524,9 @@ html {
   background-color: #1a252f;
 }
 
-.card {
+.community-card {
+  border-top: 3px solid black;
   border-bottom: 3px solid black;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
