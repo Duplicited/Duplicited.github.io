@@ -608,6 +608,8 @@ progress {
 
 .img-episode {
     margin: auto;
+    position: relative;
+    display: block;
     width: 300px;
     height: 300px;
     border: 2px solid black;
