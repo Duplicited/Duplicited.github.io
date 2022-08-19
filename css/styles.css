@@ -604,6 +604,12 @@ progress {
   height: auto;
 }
 
+.img-spotlight {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -7723,6 +7729,10 @@ textarea.form-control-lg {
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-spotlight {
+  padding: 100px;
 }
 
 .text-success {
