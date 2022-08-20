@@ -11552,6 +11552,7 @@ html {
   background-color: #1a252f;
 }
 
+
 @media (min-width: 992px) {  
   .reddit-post {
     border-top: 3px solid black;
@@ -11586,4 +11587,17 @@ html {
   }
 
 
+}
+
+.flappy-download-link {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .flappy-link {
+    display: none;
+  }
+  .flappy-download-link {
+    display: block;
+  }
 }
