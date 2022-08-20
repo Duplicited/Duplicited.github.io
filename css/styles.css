@@ -11600,4 +11600,13 @@ html {
   .flappy-download-link {
     display: block;
   }
+
+  .flappy-nav-footer {
+    display: none;
+  }
+
+  .flappy-phone {
+    width: 828px;
+    height: 1792px;
+  }
 }
