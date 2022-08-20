@@ -11553,7 +11553,7 @@ html {
 }
 
 
-@media (min-width: 800px) {  
+@media (min-width: 992px) {  
   .reddit-post {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
@@ -11593,7 +11593,7 @@ html {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
   .flappy-link {
     display: none;
   }
@@ -11605,9 +11605,4 @@ html {
     display: none;
   }
 
-  .flappy-phone {
-    width: 828px;
-    height: 1792px;
-    align-items: center;
-  }
 }
