@@ -11560,8 +11560,10 @@ html {
 
   .community-card {
     border-top: 3px solid black;
-    border-bottom: 3px solid black;
     padding-top: 100px;
-    padding-bottom: 100px;
+    background-image: url("../assets/img/spotlight.jpg");
+    background-size: cover;
   }
+
+
 }
