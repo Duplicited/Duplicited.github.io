@@ -628,7 +628,7 @@ progress {
   position: relative;
   display: block;
   overflow: hidden;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 0.5rem;
 }
 
