@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Bonkaholics" />
+        <title>Call of Cheems: Reloaded</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="" />
+        <link rel="apple-touch-icon" sizes="180x180" href="">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+        <script src="./scripts.js"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="./styles.css" rel="stylesheet" />
+    </head>
+    <body class ="fullHeight bg-primary text-white">
+        <div class="container d-flex align-items-center flex-column mb-2 text-center not-mobile-friendly">
+            <div class="divider-custom divider-light mb-5 not-mobile-friendly">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><img class="coc-logo" src='./assets/logo.jpg'></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <h1 class="masthead-heading text-uppercase mb-1 not-mobile-friendly">Swap your old COC for some new COC</h1>
+            <img class="coc not-mobile-friendly" src="./assets/cheems.PNG">
+            
+        </div>
+            <section class="text-center">  
+                
+                <div class="container d-flex align-items-center flex-column">
+
+                    <div id="box" class="app-container">
+                        <div class="balance-container mb-3 hide-content" id="balance-box">
+                            <h6>Old balance:</h6>
+                            <div class="balance-container low-padding mb-3"><h5 id="oldBalance"></h5></div>
+                            <h6>New balance:</h6>
+                            <div class="balance-container low-padding mb-3"><h5 id="newBalance"></h5></div>
+                        </div>
+                        <div>
+                            <button class="btn btn-dark mb-3" onclick="window.client.connect()" name="connectbutton" id="connectButton">1.) Connect Wallet</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-dark mb-3 hide-content" onclick="window.client.approve()" name="swapButton" id="approvebutton">2.) Approve</button>   
+                        </div> 
+                        <div>
+                            <button class="btn btn-dark mb-3 hide-content" onclick="window.client.migrate()" name="swapButton" id="migrateButton">3.) Migrate Tokens</button>   
+                        </div> 
+                        <div>
+                            <button class="btn btn-dark mb-3 hide-content" id="migrateSucc">Migration successful!</button>   
+                        </div> 
+                    </div>         
+                </div>
+            </section>
+            <footer class="footer-bar">
+            </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->    
+    </body>
+</html>
